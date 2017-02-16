@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: HelloUTEMSKKNetworking
+  host: HelloUTEMSKKNetworking
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-SKKNetworking
+  - availability-monitoring-auto
